@@ -4,7 +4,7 @@ app = FastAPI()
 
 
 @app.get("/")
-def read_root(name: str = "PyCharm20251127"):
+def read_root(name: str = "PyCharm2025112730"):
     """Root endpoint. Optional query param `name` (default: PyCharm)."""
     return {"message": f"Hi, {name}"}
 
